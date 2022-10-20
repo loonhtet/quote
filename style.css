@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;500&display=swap");
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #edf2f4;
+  box-shadow: 0 20px 20px #0a0b0e;
+}
+
+h4 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+.quote-content {
+  /* width: 200px; */
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 675px) {
+  .content {
+    font-size: 35px;
+  }
+}
+
+.ri-double-quotes-l {
+  font-size: 35px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 20px 0 0;
+}
+
+.ri-double-quotes-r {
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 20px 10px;
+}
+
+.tags {
+  color: #edf2f4;
+  background-color: #ef233c;
+  display: inline;
+}
+
+.quote-functions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-accebility {
+  display: flex;
+  align-items: flex-end;
+}
+
+.quote-accebility i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.quote-accebility i:hover {
+  scale: 1.5;
+}
+
+.nextbtn {
+  font-weight: 500;
+  transition: all 0.3s;
+  border: 2px solid var(--bs-dark);
+  padding: 0 10px;
+}
+
+.nextbtn:hover {
+  color: #edf2f4;
+  background-color: var(--bs-dark);
+  letter-spacing: 1px;
+}
+
+.nextbtn i {
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+.loader {
+  color: #bbb;
+  border: 2px solid #bbb;
+  pointer-events: none;
+}
+
+.loader:hover {
+  color: #bbb;
+  background: none;
+  letter-spacing: 0;
+}
